@@ -4,17 +4,23 @@ body {
 .top_left{
   display: flex;
   flex-direction: row;
+  position: sticky;
+  top: 0;
 }
 .middle_banner{
   display: flex;
   justify-content: center;
+  position: sticky;
+  top: 0;
 }
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  width: 200px;
+  width: 100px;
   background-color: #f1f1f1;
+  position: sticky;
+  right: 0;
 
 }
 li a {
@@ -24,8 +30,29 @@ li a {
   text-decoration: none;
   border: 1px solid black;
 
+
 }
 li a:hover {
   background-color: #555;
   color: white;
+}
+h2 {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  margin-bottom: 0;
+  padding-bottom: 10;
+  margin-top: 0;
+  padding top: 10px;
+
+p {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  padding-left: 50%;
+  padding-right: 50%;
+  padding-top: 30px;
+  margin: 10px;
+  background-color: white;
+
 }

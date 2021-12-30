@@ -4,7 +4,11 @@ body {
 .material-icons{
   font-size: 36px;
   color: darkgrey;
-;
+
+}
+.material-icons:hover{
+  background-color: blue;
+  border-radius: 50px;
 }
 .header{
   background-color:white;
@@ -65,8 +69,9 @@ right: 20%;
 
 
 }
-ul {
+.sidebar{
   list-style-type: none;
+  position: relative;
   margin: 0;
   padding: 0;
   width: 100px;
@@ -75,7 +80,7 @@ ul {
   right: 0;
 
 }
-li a {
+.sidebar a {
   display: block;
   color: #000;
   padding: 8px 16px;

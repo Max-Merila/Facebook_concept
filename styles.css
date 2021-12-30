@@ -1,6 +1,10 @@
 body {
   background-color: lightgrey;
 }
+.material-icons{
+  font-size: 36px
+;
+}
 .header{
   background-color:white;
   display: flex;
@@ -28,6 +32,7 @@ body {
 }
 .middle_banner{
   display: flex;
+  
   position: absolute;
   left: 50%;
   right: 50%;

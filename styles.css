@@ -71,13 +71,14 @@ right: 20%;
 }
 .sidebar{
   list-style-type: none;
-  position: relative;
-  margin: 0;
-  padding: 0;
-  width: 100px;
+  position: absolute;
+  margin: 10px;
+  padding: 10px;
+  width: 200px;
   background-color: #f1f1f1;
   position: sticky;
-  right: 0;
+  left: 0;
+  top: 40px
 
 }
 .sidebar a {
@@ -88,10 +89,21 @@ right: 20%;
   border: 1px solid black;
 
 
+
 }
 li a:hover {
   background-color: #555;
   color: white;
+}
+.Posts {
+  display: flex;
+  position: relative;
+  padding-top: 40px;
+  margin: 10px;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%, -50%);
+
 }
 h2 {
   display: flex;

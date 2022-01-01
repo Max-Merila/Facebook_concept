@@ -50,9 +50,18 @@ box-shadow: 0 5px 8px -9px rgba(0, 0, 0, 0.75);
 .option:hover .material-icons{
   color: blue;
 }
+.option {
+  display: flex;
+  align-items: center;
+  padding: 0 30px;
+  cursor: pointer;
+}
+.option.active .material-icons{
+  color: blue;
+}
 
 
-body {
+.body {
   background-color: lightgrey;
 }
 

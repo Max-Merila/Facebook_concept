@@ -1,34 +1,28 @@
-body {
-  background-color: lightgrey;
+*{
+  margin: 0;
 }
-.material-icons{
-  font-size: 36px;
-  color: darkgrey;
 
-}
-.material-icons:hover{
-  background-color: blue;
-  border-radius: 50px;
+.top_left img{
+  height: 40px;
+  border-radius: 50%;
 }
 .header{
-  background-color:white;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding-left: 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  position: sticky;
-  top: 0;
-
+padding: 15px 20px;
+display: flex;
+justify-content: space-between;
+position: sticky;
+top: 0;
+background-color: white;
+z-index: 100;
+box-shadow: 0 5px 8px -9px rgba(0, 0, 0, 0.75);
 }
+
 .top_left{
   display: flex;
-  flex-direction: row;
-  padding-left: 10px;
-  padding-top: 10px;
-  float: left;
+  align-items: center;
+  justify-content: space-evenly;
 }
+
 .top_left_input{
   display: flex;
   align-items: center;
@@ -40,26 +34,29 @@ body {
 .top_left_input input{
   border: none;
   background-color: transparent;
-  outline_width: 0;
+  outline-width: 0;
 }
-.top_left img{
-  width: auto;
-  height: 40px;
-  border-radius: 30px;
-}
-.header input{
 
-}
 .middle_banner{
   display: flex;
-  position: absolute;
-  padding-top: 20px;
-  margin: 10px;
-  left: 50%;
-  right: 50%;
-  transform: translate(-50%, -50%);
-
+  flex:1;
+  justify-content: center;
 }
+.option .material-icons {
+  font-size: xx-large;
+  color: gray;
+}
+
+.option:hover .material-icons{
+  color: blue;
+}
+
+
+body {
+  background-color: lightgrey;
+}
+
+
 
 .right_banner{
 display: flex;

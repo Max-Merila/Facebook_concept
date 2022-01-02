@@ -145,7 +145,7 @@ align-items: center;
   display: flex;
 }
 .body {
-  background-color: #f1f2f5;
+  background-color: gray;
 }
 .feed {
   flex: 1;
@@ -157,4 +157,13 @@ align-items: center;
 .sidebar {
   padding: 25px 10px;
   flex: .33;
+}
+.messageSender{
+  display:flex;
+  margin-top: 30px;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.75);
+  width: 100%;
 }

@@ -98,7 +98,7 @@ align-items: center;
   cursor: pointer;
 }
 .sidebarRow:hover {
-  background-color: lightgray;
+  background-color: white;
   border-radius: 10px;
 }
 .sidebarRow .h4{
@@ -145,6 +145,7 @@ align-items: center;
   display: flex;
 }
 .main_body{
+  background-color: lightgray;
   display: flex;
 }
 
